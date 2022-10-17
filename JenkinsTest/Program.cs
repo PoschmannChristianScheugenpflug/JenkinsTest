@@ -5,6 +5,7 @@ Console.WriteLine("Hello, Test");
 
 while(true)
 {
-    string? s = "Enter text: " + Console.ReadLine();
-    Console.WriteLine(s + "!!!");
+    Console.Write("Enter text: ");
+    string? s = Console.ReadLine();
+    Console.WriteLine("Your text: " + s);
 }
